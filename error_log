@@ -1,0 +1,2 @@
+[18-Aug-2022 20:18:33 Asia/Ho_Chi_Minh] PHP Warning:  require_once(/home/checkmom/public_html/public/index.php): failed to open stream: No such file or directory in /home/checkmom/public_html/server.php on line 21
+[18-Aug-2022 20:18:33 Asia/Ho_Chi_Minh] PHP Fatal error:  require_once(): Failed opening required '/home/checkmom/public_html/public/index.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/checkmom/public_html/server.php on line 21

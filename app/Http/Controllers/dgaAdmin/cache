@@ -1,0 +1,5 @@
+ALTER TABLE `settings` ADD `amount3Same` INT NULL DEFAULT '0' AFTER `amount_hu`, ADD `amount4Same` INT NULL DEFAULT '0' AFTER `amount3Same`, ADD `amount5Same` INT NULL DEFAULT '0' AFTER `amount4Same`, ADD `amount3Lobby` INT NULL DEFAULT '0' AFTER `amount5Same`, ADD `amount4Lobby` INT NULL DEFAULT '0' AFTER `amount3Lobby`, ADD `amount5Lobby` INT NULL DEFAULT '0' AFTER `amount4Lobby`;
+
+
+
+ALTER TABLE `history_hus` ADD `type` VARCHAR(11) NULL AFTER `updated_at`;
